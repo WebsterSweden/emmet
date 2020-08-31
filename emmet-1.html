@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet 1</title>
+    <style>
+        div {
+            border: thin solid black
+        }
+
+        p {
+            /* mb1r */
+            /* margin-bottom: 1rem; */
+            /* p1r */
+            /* padding: 1rem; */
+            /* tac */
+            /* text-align: center; */
+
+            /* Hover over the color value. */
+            color: red;
+            color: #ff0000;
+            color: rgb(255, 0, 0);
+            color: hsl(0, 100%, 50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>div.class-selector</p>
+    <div class="class-selector">&nbsp;</div>
+
+    <p>div#id-selector</p>
+    <div id="id-selector">&nbsp;</div>
+
+    <p>ul&gt;li*3</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <hr>
+
+    <p>div&gt;p</p>
+    <div>
+        <p>paragraph</p>
+    </div>
+
+    <hr>
+
+    <p>div+p</p>
+
+    <div></div>
+    <p>paragraph</p>
+
+    <hr>
+
+    <p>div&gt;h1+p&gt;span</p>
+
+    <div>
+        <h1>h1 heading</h1>
+        <p>paragraph <span>span</span> paragraph</p>
+    </div>
+
+    <p>div+h1+p+p+h2+p+p</p>
+
+    <h1>h1 heading</h1>
+    <p>paragraph</p>
+    <p>paragraph</p>
+    <h2>h2 heading</h2>
+    <p>paragraph</p>
+    <p>paragraph</p>
+
+</body>
+
+</html>
